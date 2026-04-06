@@ -13,9 +13,7 @@ Classifies text into **four sentiment categories**:
 Sentiment_Classifier/
 ├── dataset.csv          # 100 labeled sentences (4 classes)
 ├── model.py             # Main script: train, evaluate, predict, CLI
-├── utils.py             # Text preprocessing utilities
-├── model.pkl            # Saved model (generated after training)
-├── results.csv          # Batch prediction output (generated on use)
+├── utils.py             # Text preprocessing utilities          
 ├── confusion_matrix.png # Evaluation plot (generated after training)
 └── README.md
 ```
